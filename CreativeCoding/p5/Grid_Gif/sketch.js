@@ -21,7 +21,7 @@ for (var y = 0; y <windowWidth;y += sideLen){
       x + sideLen,y,
       x +sideLen,y+ sideLen,
       x, y + sideLen);
-      image (gif,x,y,sideLen,sideLen)
+      image (gif,x,y,sideLen,sideLen);
   }
 }
 
