@@ -8,10 +8,10 @@ function draw() {
   strokeWeight(1);
 for (var y = 0; y <720;y += 360){
   for(var x = 0; x<720;x += 360){
-    quad(x,0,
-      x + 360,0,
-      x +360,360,
-      x,360);
+    quad(x,y,
+      x + 360,y,
+      x +360,y+ 360,
+      x, y + 360);
   }
 }
 
