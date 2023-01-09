@@ -4,10 +4,9 @@ function setup() {
 }
 
 function draw() {
-  translate(60,60);
   fill(255,0,0);
-  strokeWeight(8);
-  stroke(0,0,255);
+  strokeWeight(1);
+
 for(var x = 0; x<720,x = x + 360){
   quad(x,0,
     x + 360,0,
