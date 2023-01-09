@@ -2,7 +2,7 @@
 
  function preload(){
 
-   gif = loadImage (assets/Dancing_Yoshi.gif);
+   gif = loadImage ('assets/Dancing_Yoshi.gif');
  }
 
 function setup() {
