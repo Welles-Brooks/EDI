@@ -4,7 +4,7 @@ function setup() {
 }
 
 function draw() {
-  fill(255,0,0);
+  fill(0,255,255);
   strokeWeight(1);
   var num = 2;
   var sideLen = windowWidth/num;
