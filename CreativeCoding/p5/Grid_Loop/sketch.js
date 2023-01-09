@@ -6,12 +6,13 @@ function setup() {
 function draw() {
   fill(255,0,0);
   strokeWeight(1);
+  var sideLen = 360;
 for (var y = 0; y <720;y += 360){
   for(var x = 0; x<720;x += 360){
     quad(x,y,
-      x + 360,y,
-      x +360,y+ 360,
-      x, y + 360);
+      x + sideLen,y,
+      x +sideLen,y+ sideLen,
+      x, y + sideLen);
   }
 }
 
