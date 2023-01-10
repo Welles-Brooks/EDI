@@ -13,7 +13,7 @@ function setup() {
 function draw() {
   fill(0,255,255);
   strokeWeight(1);
-  var num = 4;
+  var num = 20;
   var sideLen = windowWidth/num;
 
   translate(-150,-150);//give design bleed effect
