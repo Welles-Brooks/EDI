@@ -15,14 +15,17 @@ function draw() {
   strokeWeight(1);
   var num = 4;
   var sideLen = windowWidth/num;
-for (var y = 0; y <windowWidth;y += sideLen){
-  for(var x = 0; x<windowWidth;x += sideLen){
+
+  translate(-150,-150);//give design bleed effect
+
+for (var y = 0; y < 2 * windowWidth;y += sideLen){
+  for(var x = 0; x< 2 * windowWidth;x += sideLen){
       image (gif,x,y,sideLen,sideLen);
   }
 }
 
 }
 
-function windowResized (){
+function windowResized (){// This resize and refreshes the design with broswer
   resizeCanvas (windowWidth,windowHeight);
 }
