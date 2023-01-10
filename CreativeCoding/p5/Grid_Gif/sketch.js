@@ -22,3 +22,7 @@ for (var y = 0; y <windowWidth;y += sideLen){
 }
 
 }
+
+function windowResized (){
+  resizeCanvas (windowWidth,windowHeight);
+}
